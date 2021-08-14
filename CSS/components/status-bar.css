@@ -1,7 +1,13 @@
 .status-bar {
   display: flex;
   justify-content: center;
-  padding: 5px 3px;
+  padding: 10px 10px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0px;
+  background-color: white;
+  z-index: 5;
 }
 
 .status-bar__column {
@@ -28,3 +34,8 @@
   display: flex;
   margin: 0px 5px;
 }
+
+/*
+background-color: white;
+  z-index: 2;
+  */

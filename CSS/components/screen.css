@@ -1,0 +1,18 @@
+/*
+.screen__header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top
+  z-index: 1;
+}
+
+.screen__header h1 {
+  font: 30px bold;
+}
+
+.screen__header a {
+  padding: 0px 10px;
+}
+*/
