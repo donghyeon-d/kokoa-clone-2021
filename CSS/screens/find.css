@@ -1,24 +1,3 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-.find-icons__icon i {
-  font-size: 40px;
-}
-.find-icons__icon span {
-  margin-top: 18px;
-}
-
 .recommended-friends {
   padding: 25px 0px;
   border-top: var(--main-border);
@@ -53,6 +32,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
 }
 
 .open-post__title {
@@ -121,4 +103,25 @@
 
 .open-post__heart-count span {
   margin-left: 3px;
+  transform: none;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }

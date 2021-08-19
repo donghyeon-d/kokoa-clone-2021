@@ -55,6 +55,11 @@
   display: block;
 }
 
+.user-component__subtitle i {
+  margin-left: 10px;
+  color: tomato;
+}
+
 .user-component__notification {
   background-color: tomato;
   width: 30px;

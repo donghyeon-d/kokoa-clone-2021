@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chat-Kokoa Talk</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-lock"></i>
+            <span>110%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Kakao Talk</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-2x"></i></span>
+            <span><i class="fas fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesdat, June 30, 2020
+        </div>
+
+        <div class="messsage-row">
+            <img src="kakao.JPG">
+            <div class="message-row__content">
+                <span class="message__author">Kakao Talk</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">22:20</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+                <div class="message__info">
+                    <span class="message__bubble">Nice to meet you!</span>
+                    <span class="message__time">22:20</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <form class="message-send">
+        <div class="reply">
+            <div class="reply__column">
+                <i class="far fa-plus-square fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="input" placeholder="Write a message..."/>
+                <i class="far fa-grin-alt"></i>
+                <button>
+                    <i class="fas fa-arrow-up fa-lg"></i>
+                </button>
+            </div>
+        </div>
+        <div class="keyboard">
+            <div class="keyboard-row">
+                <button class="keyboard-alphabet">q</button>
+                <button class="keyboard-alphabet">w</button>
+                <button class="keyboard-alphabet">e</button>
+                <button class="keyboard-alphabet">r</button>
+                <button class="keyboard-alphabet">t</button>
+                <button class="keyboard-alphabet">y</button>
+                <button class="keyboard-alphabet">u</button>
+                <button class="keyboard-alphabet">i</button>
+                <button class="keyboard-alphabet">o</button>
+                <button class="keyboard-alphabet">p</button>
+            </div>
+            <div class="keyboard-row">
+                <button class="keyboard-alphabet">a</button>
+                <button class="keyboard-alphabet">s</button>
+                <button class="keyboard-alphabet">d</button>
+                <button class="keyboard-alphabet">f</button>
+                <button class="keyboard-alphabet">g</button>
+                <button class="keyboard-alphabet">h</button>
+                <button class="keyboard-alphabet">j</button>
+                <button class="keyboard-alphabet">k</button>
+                <button class="keyboard-alphabet">l</button>
+            </div>
+            <div class="keyboard-row">
+                <button class="keyboard-extra"><i class="far fa-caret-square-up"></i></button>
+                <button class="keyboard-alphabet">z</button>
+                <button class="keyboard-alphabet">x</button>
+                <button class="keyboard-alphabet">c</button>
+                <button class="keyboard-alphabet">v</button>
+                <button class="keyboard-alphabet">b</button>
+                <button class="keyboard-alphabet">n</button>
+                <button class="keyboard-alphabet">m</button>
+                <button class="keyboard-extra"><i class="fas fa-backspace"></i></button>
+            </div>
+            <div class="keyboard-row">
+                <button class="keyboard-extra">123</button>
+                <button class="keyboard-extra"><i class="fas fa-globe"></i></button>
+                <button class="keyboard-alphabet"><i class="fas fa-microphone"></i></button>
+                <button class="keyboard-space">space</button>
+                <button class="keyboard-extra">return</button>
+            </div>
+        </div>
+
+
+    </form>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
